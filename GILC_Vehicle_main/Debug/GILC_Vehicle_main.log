@@ -1,0 +1,26 @@
+﻿  GILC_Vehicle_main.cpp
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(221): warning C4244: “初始化”: 从“double”转换到“HC_INT32”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(476): warning C4305: “=”: 从“double”到“float”截断
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(479): warning C4305: “=”: 从“double”到“float”截断
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(480): warning C4305: “=”: 从“double”到“float”截断
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(481): warning C4305: “=”: 从“double”到“float”截断
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(679): warning C4244: “=”: 从“double”转换到“int32_t”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(680): warning C4244: “=”: 从“double”转换到“int32_t”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(682): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(683): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(684): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(685): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(686): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(687): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(688): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(689): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(690): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(691): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(692): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(697): warning C4309: “=”: 截断常量值
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(669): warning C4101: “gilc_alt”: 未引用的局部变量
+  正在生成代码...
+  正在编译...
+  gilc_out_pack.cpp
+  正在生成代码...
+  GILC_Vehicle_main.vcxproj -> G:\CGI-410\GILC_Vehicle_develop_6.24\Debug\GILC_Vehicle_main.exe

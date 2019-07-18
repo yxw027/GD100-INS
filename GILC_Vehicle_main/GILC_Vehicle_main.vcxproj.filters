@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\configure">
+      <UniqueIdentifier>{cd730f9b-a6ee-4ad4-9c36-e00a97a4f4a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\protocol">
+      <UniqueIdentifier>{0a935eab-3593-4eaf-a5a1-3613d5adcb4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_TEST_FileLoad.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\inc\GILC_Vehicle_lib.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\configure\configure.h">
+      <Filter>源文件\configure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\configure\parson.h">
+      <Filter>源文件\configure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_IMU_Config_imu380.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_IMU_Config_imu381.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_IMU_Dev.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_Test_Config_FileLoad.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_IMU_Config_adis16445.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_IMU_Config_adis16445_nx200.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_IMU_Config_adis16465.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_Test_Config_FileLoad_nx200_adis16445.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_Test_Config_FileLoad_P2C_demo_adis16465.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_Test_Config_FileLoad_P2C_demo_imu381.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_IMU_Config_adis16465_demo2.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\configure\configure_calibrate.h">
+      <Filter>源文件\configure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GILC_Test_Config_FileLoad_P2C_demo2_adis16465.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\protocol\gilc_out_pack.h">
+      <Filter>源文件\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="NX200_IMU381.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pca_IMU381.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGI310-murata.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AP100_ADI445.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gilc\I90_IMU381.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gilc\Serial_Com.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\configure\configure.c">
+      <Filter>源文件\configure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\configure\parson.c">
+      <Filter>源文件\configure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\configure\configure_calibrate.c">
+      <Filter>源文件\configure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\protocol\gilc_out_pack.cpp">
+      <Filter>源文件\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GILC_Vehicle_main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gilc\Serial_Com.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

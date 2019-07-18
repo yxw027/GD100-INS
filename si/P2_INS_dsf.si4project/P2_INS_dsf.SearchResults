@@ -1,0 +1,6 @@
+---- gilc_status_chc Matches (6 in 3 files) ----
+GILC_IOOut_CreatNmeaPack in gilc_out_pack.cpp (src\protocol) : 	gnss_msg.ins_msg.gilcstatus = pstOut->gilc_status_chc;
+GilcProcess::GILC_Update_Status in GILC_Vehicle_lib.cpp (src\gilc) : 	pstOut->gilc_status_chc = iGilcStatusChc_h + iGilcStatusChc_l;
+GILC_Vehicle_lib.h (src\inc) line 50 : typedef enum gilc_status_chc {
+gilc_status_chc in GILC_Vehicle_lib.h (src\inc) : }gilc_status_chc_e;
+gilc_result_double in GILC_Vehicle_lib.h (src\inc) : 	int    gilc_status_chc;  //gilc_status_chc_e定义，详见GPCHC status 字段含义

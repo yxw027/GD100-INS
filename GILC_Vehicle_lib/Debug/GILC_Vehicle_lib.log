@@ -1,0 +1,15 @@
+﻿  CSINS.cpp
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc\csins.cpp(1104): warning C4101: “dtelay”: 未引用的局部变量
+  正在生成代码...
+  正在编译...
+  GILC_Vehicle_lib.cpp
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc\gilc_vehicle_lib.cpp(928): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc\gilc_vehicle_lib.cpp(1449): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  GILC_KF.cpp
+  GILC_IOFile.cpp
+  Comfunc.cpp
+  log.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(G:\CGI-410\GILC_Vehicle_develop_6.24\Debug\GILC_Vehicle_lib.lib) does not match the Library's OutputFile property value (G:\CGI-410\GILC_Vehicle_develop_6.24\Debug\libgilcvehicle.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(GILC_Vehicle_lib) does not match the Library's OutputFile property value (libgilcvehicle). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  GILC_Vehicle_lib.vcxproj -> G:\CGI-410\GILC_Vehicle_develop_6.24\Debug\GILC_Vehicle_lib.lib

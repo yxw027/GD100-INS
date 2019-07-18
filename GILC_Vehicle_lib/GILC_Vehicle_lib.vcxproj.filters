@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\common">
+      <UniqueIdentifier>{f2fa0d98-e58a-4cfc-83aa-c0c89e0a85a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gnss">
+      <UniqueIdentifier>{bbeed4fa-c966-4550-8ce0-e33fa0f84590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\math">
+      <UniqueIdentifier>{5d118663-4c86-4341-a637-1e78675d195e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gilc">
+      <UniqueIdentifier>{a69c51e0-5c81-457e-af47-f2ecbaa7d794}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gilc\GILC.h">
+      <Filter>源文件\gilc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gilc\GILC_Config.h">
+      <Filter>源文件\gilc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gilc\GILC_IOFile.h">
+      <Filter>源文件\gilc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gnss\gnss_nmea.h">
+      <Filter>源文件\gnss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gnss\gnss_nmea_creat.h">
+      <Filter>源文件\gnss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\math\filter.h">
+      <Filter>源文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\inc\GILC_Vehicle_lib.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\buffer.h">
+      <Filter>源文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\hc_type.h">
+      <Filter>源文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\log.h">
+      <Filter>源文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\malloc_allocator.h">
+      <Filter>源文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gilc\GILC_KF.h">
+      <Filter>源文件\gilc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\gilc\Comfunc.cpp">
+      <Filter>源文件\gilc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gilc\CSINS.cpp">
+      <Filter>源文件\gilc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gilc\GILC_IOFile.cpp">
+      <Filter>源文件\gilc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gilc\GILC_Vehicle_lib.cpp">
+      <Filter>源文件\gilc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gnss\gnss_nmea.c">
+      <Filter>源文件\gnss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gnss\gnss_nmea_creat.c">
+      <Filter>源文件\gnss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\math\filter.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\buffer.c">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\log.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gilc\GILC_KF.cpp">
+      <Filter>源文件\gilc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

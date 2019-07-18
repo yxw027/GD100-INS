@@ -1,0 +1,16 @@
+﻿生成启动时间为 2019/6/27 9:44:07。
+     1>项目“G:\CGI-410\GILC_Vehicle_develop_6.24\GILC_Vehicle_main\GILC_Vehicle_main.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\GILC_Vehicle_main.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt ..\src\configure\configure.c ..\src\configure\configure_calibrate.c ..\src\configure\parson.c
+         parson.c
+     1>g:\cgi-410\gilc_vehicle_develop_6.24\src\configure\parson.c(2004): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         configure_calibrate.c
+     1>g:\cgi-410\gilc_vehicle_develop_6.24\src\configure\configure_calibrate.c(441): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         configure.c
+     1>g:\cgi-410\gilc_vehicle_develop_6.24\src\configure\configure.c(272): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+     1>已完成生成项目“G:\CGI-410\GILC_Vehicle_develop_6.24\GILC_Vehicle_main\GILC_Vehicle_main.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.42
