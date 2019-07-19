@@ -1,15 +1,43 @@
-﻿  CSINS.cpp
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc\csins.cpp(1104): warning C4101: “dtelay”: 未引用的局部变量
-  正在生成代码...
-  正在编译...
-  GILC_Vehicle_lib.cpp
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc\gilc_vehicle_lib.cpp(928): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc\gilc_vehicle_lib.cpp(1449): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
-  GILC_KF.cpp
-  GILC_IOFile.cpp
-  Comfunc.cpp
-  log.cpp
-  正在生成代码...
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(G:\CGI-410\GILC_Vehicle_develop_6.24\Debug\GILC_Vehicle_lib.lib) does not match the Library's OutputFile property value (G:\CGI-410\GILC_Vehicle_develop_6.24\Debug\libgilcvehicle.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(GILC_Vehicle_lib) does not match the Library's OutputFile property value (libgilcvehicle). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
-  GILC_Vehicle_lib.vcxproj -> G:\CGI-410\GILC_Vehicle_develop_6.24\Debug\GILC_Vehicle_lib.lib
+﻿生成启动时间为 2019/7/18 17:21:28。
+     1>项目“E:\GIT\GD100_GINS\GILC_Vehicle_lib\GILC_Vehicle_lib.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\VS2015\VC\bin\CL.exe /c /I..\src\eigen /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\GILC_Vehicle_lib.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\common\buffer.c ..\src\gnss\gnss_nmea.c ..\src\gnss\gnss_nmea_creat.c
+         gnss_nmea_creat.c
+         gnss_nmea.c
+         buffer.c
+         正在生成代码...
+         E:\VS2015\VC\bin\CL.exe /c /I..\src\eigen /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\GILC_Vehicle_lib.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\common\log.cpp ..\src\gilc\Comfunc.cpp ..\src\gilc\CSINS.cpp ..\src\gilc\GILC_IOFile.cpp ..\src\gilc\GILC_KF.cpp ..\src\gilc\GILC_Vehicle_lib.cpp ..\src\math\filter.cpp
+         filter.cpp
+     1>e:\git\gd100_gins\src\math\filter.cpp(554): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\git\gd100_gins\src\math\filter.cpp(573): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\git\gd100_gins\src\math\filter.cpp(768): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\git\gd100_gins\src\math\filter.cpp(1010): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         GILC_Vehicle_lib.cpp
+     1>e:\git\gd100_gins\src\gilc\gilc_vehicle_lib.cpp(928): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>e:\git\gd100_gins\src\gilc\gilc_vehicle_lib.cpp(1408): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         GILC_KF.cpp
+         GILC_IOFile.cpp
+         CSINS.cpp
+     1>e:\git\gd100_gins\src\gilc\csins.cpp(1104): warning C4101: “dtelay”: 未引用的局部变量
+         Comfunc.cpp
+         log.cpp
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(E:\GIT\GD100_GINS\Debug\GILC_Vehicle_lib.lib) does not match the Library's OutputFile property value (E:\GIT\GD100_GINS\Debug\libgilcvehicle.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(GILC_Vehicle_lib) does not match the Library's OutputFile property value (libgilcvehicle). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         E:\VS2015\VC\bin\Lib.exe /OUT:"E:\GIT\GD100_GINS\Debug\libgilcvehicle.lib" /NOLOGO Debug\buffer.obj
+         Debug\log.obj
+         Debug\Comfunc.obj
+         Debug\CSINS.obj
+         Debug\GILC_IOFile.obj
+         Debug\GILC_KF.obj
+         Debug\GILC_Vehicle_lib.obj
+         Debug\gnss_nmea.obj
+         Debug\gnss_nmea_creat.obj
+         Debug\filter.obj
+         GILC_Vehicle_lib.vcxproj -> E:\GIT\GD100_GINS\Debug\GILC_Vehicle_lib.lib
+     1>已完成生成项目“E:\GIT\GD100_GINS\GILC_Vehicle_lib\GILC_Vehicle_lib.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:17.18

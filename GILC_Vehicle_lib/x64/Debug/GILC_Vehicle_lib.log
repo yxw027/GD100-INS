@@ -1,16 +1,16 @@
-﻿生成启动时间为 2019/6/27 9:43:50。
-     1>项目“G:\CGI-410\GILC_Vehicle_develop_6.24\GILC_Vehicle_lib\GILC_Vehicle_lib.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2019/7/18 17:16:09。
+     1>项目“E:\GIT\GD100_GINS\GILC_Vehicle_lib\GILC_Vehicle_lib.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
          E:\VS2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\GILC_Vehicle_lib.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt ..\src\common\buffer.c ..\src\gnss\gnss_nmea.c ..\src\gnss\gnss_nmea_creat.c
          gnss_nmea_creat.c
-     1>g:\cgi-410\gilc_vehicle_develop_6.24\src\gnss\gnss_nmea_creat.c(222): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+     1>e:\git\gd100_gins\src\gnss\gnss_nmea_creat.c(222): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
          gnss_nmea.c
-     1>g:\cgi-410\gilc_vehicle_develop_6.24\src\gnss\gnss_nmea.c(368): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+     1>e:\git\gd100_gins\src\gnss\gnss_nmea.c(368): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
          buffer.c
-     1>g:\cgi-410\gilc_vehicle_develop_6.24\src\common\buffer.c(178): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+     1>e:\git\gd100_gins\src\common\buffer.c(178): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
          正在生成代码...
-     1>已完成生成项目“G:\CGI-410\GILC_Vehicle_develop_6.24\GILC_Vehicle_lib\GILC_Vehicle_lib.vcxproj”(Build 个目标)的操作 - 失败。
+     1>已完成生成项目“E:\GIT\GD100_GINS\GILC_Vehicle_lib\GILC_Vehicle_lib.vcxproj”(Rebuild 个目标)的操作 - 失败。
 
 生成失败。
 
-已用时间 00:00:16.98
+已用时间 00:00:07.29

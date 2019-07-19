@@ -1,26 +1,49 @@
-﻿  GILC_Vehicle_main.cpp
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(221): warning C4244: “初始化”: 从“double”转换到“HC_INT32”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(476): warning C4305: “=”: 从“double”到“float”截断
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(479): warning C4305: “=”: 从“double”到“float”截断
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(480): warning C4305: “=”: 从“double”到“float”截断
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(481): warning C4305: “=”: 从“double”到“float”截断
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(679): warning C4244: “=”: 从“double”转换到“int32_t”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(680): warning C4244: “=”: 从“double”转换到“int32_t”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(682): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(683): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(684): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(685): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(686): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(687): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(688): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(689): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(690): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(691): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(692): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(697): warning C4309: “=”: 截断常量值
-g:\cgi-410\gilc_vehicle_develop_6.24\src\gilc_vehicle_main.cpp(669): warning C4101: “gilc_alt”: 未引用的局部变量
-  正在生成代码...
-  正在编译...
-  gilc_out_pack.cpp
-  正在生成代码...
-  GILC_Vehicle_main.vcxproj -> G:\CGI-410\GILC_Vehicle_develop_6.24\Debug\GILC_Vehicle_main.exe
+﻿生成启动时间为 2019/7/18 17:17:03。
+     1>项目“E:\GIT\GD100_GINS\GILC_Vehicle_main\GILC_Vehicle_main.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\VS2015\VC\bin\CL.exe /c /I..\src\eigen /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\configure\configure.c ..\src\configure\configure_calibrate.c ..\src\configure\parson.c
+         parson.c
+         configure_calibrate.c
+         configure.c
+     1>e:\git\gd100_gins\src\configure\configure.c(146): warning C4244: “=”: 从“double”转换到“HC_INT32”，可能丢失数据
+     1>e:\git\gd100_gins\src\configure\configure.c(147): warning C4244: “=”: 从“double”转换到“HC_INT32”，可能丢失数据
+     1>e:\git\gd100_gins\src\configure\configure.c(148): warning C4244: “=”: 从“double”转换到“HC_INT32”，可能丢失数据
+         正在生成代码...
+         E:\VS2015\VC\bin\CL.exe /c /I..\src\eigen /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\gilc\Serial_Com.cpp ..\src\GILC_Vehicle_main.cpp ..\src\protocol\gilc_out_pack.cpp
+         gilc_out_pack.cpp
+         GILC_Vehicle_main.cpp
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(221): warning C4244: “初始化”: 从“double”转换到“HC_INT32”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(476): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(479): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(480): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(481): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(679): warning C4244: “=”: 从“double”转换到“int32_t”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(680): warning C4244: “=”: 从“double”转换到“int32_t”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(682): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(683): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(684): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(685): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(686): warning C4244: “=”: 从“double”转换到“int16_t”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(687): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(688): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(689): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(690): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(691): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(692): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(697): warning C4309: “=”: 截断常量值
+     1>e:\git\gd100_gins\src\gilc_vehicle_main.cpp(669): warning C4101: “gilc_alt”: 未引用的局部变量
+         Serial_Com.cpp
+         正在生成代码...
+       Link:
+         E:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\GIT\GD100_GINS\Debug\GILC_Vehicle_main.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Debug libgilcvehicle.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\GIT\GD100_GINS\Debug\GILC_Vehicle_main.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\GIT\GD100_GINS\Debug\GILC_Vehicle_main.lib" /MACHINE:X86 Debug\configure.obj
+         Debug\configure_calibrate.obj
+         Debug\parson.obj
+         Debug\Serial_Com.obj
+         Debug\GILC_Vehicle_main.obj
+         Debug\gilc_out_pack.obj
+         GILC_Vehicle_main.vcxproj -> E:\GIT\GD100_GINS\Debug\GILC_Vehicle_main.exe
+     1>已完成生成项目“E:\GIT\GD100_GINS\GILC_Vehicle_main\GILC_Vehicle_main.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:13.38
